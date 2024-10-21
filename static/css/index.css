@@ -1,0 +1,114 @@
+body
+{
+    font-family: serif;
+}
+
+ .color-picker-container
+ {
+    width: 100px;
+    height: 100px;
+ }
+
+.fix-align-container
+{
+    font-family: inherit;
+}
+
+.basic-form
+{
+    background-color: #fafafa;
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    border-width: 1px;
+    padding: 30px;
+    border-radius: 12px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.checkbox-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.checkbox-container input[type="checkbox"]
+{
+    margin: 0;
+    margin-left: 0px;
+}
+
+.basic-form h3
+{
+    font-family: serif;
+    font-size: 22px;
+    color: rgb(28, 47, 69);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.basic-form input
+{
+    width: 100px;
+    height: 25px;
+}
+
+#central
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+#logo-container
+{
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+#logo-container h1
+{
+    margin: 0;
+    font-size: 40px;
+}
+#logo-container hr
+{
+    width: 220px;
+    border-style: none;
+    border-style: solid;
+    border-color: #cfd1d5;
+    margin: 0;
+}
+#canvas-figura
+{
+    background-color: #fdfdf7;
+    border-color: #b4b6bb;
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 400px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+#bt-gerar-figura
+{
+    font-size: 16px;
+    margin-top: 20px;
+}

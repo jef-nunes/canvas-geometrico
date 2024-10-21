@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="logo-container">
+<h1>Arte Geometrica</h1>
+<hr>
+</div>
+
+<div id="central">
+    
+    <canvas id="canvas-figura"></canvas>
+
+    <div class="basic-form">
+        <h3>Personalizar</h3>
+        <p>Lados</p>
+        <input type="text" name="" id="insere-lados">
+        <p>Cor</p>
+        <div class="color-picker-container">
+        <input type="color" id="seletor-de-cor" class="color-picker-input" value="#8632C6">
+        </div>
+        
+        <div class="fix-align-container">
+            <div class="checkbox-container">
+                <input type="checkbox" id="variar-tam" name="variar-tam" value="">
+                <p>Variar tamanhos</p>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="variar-rot" name="variar-rot" value="">
+                <p>Variar rotação</p>
+            </div>
+        </div>
+
+        <button id="bt-gerar-figura">Gerar figura</button>
+    </div>
+
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
