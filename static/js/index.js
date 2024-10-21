@@ -94,8 +94,8 @@ function principal() {
     const figCanvas = new FigCanvas();
     figCanvas.btGerarFigura.addEventListener("click", () => figCanvas.gerarFigura());
     // Desenho inicial: Um retângulo roxo
-    figCanvas.figura.lados = 4;
-    figCanvas.figura.cor = "#8632C6";
-    figCanvas.desenharFigura();
+    //figCanvas.figura.lados = 4;
+    //figCanvas.figura.cor = "#8632C6";
+    //figCanvas.desenharFigura();
 }
 document.addEventListener("DOMContentLoaded", principal);

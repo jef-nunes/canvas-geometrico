@@ -1,5 +1,7 @@
 body
 {
+    color: white;
+    background-color: rgb(2, 10, 28);
     font-family: serif;
 }
 
@@ -16,9 +18,10 @@ body
 
 .basic-form
 {
-    background-color: #fafafa;
+    color: rgb(147, 155, 150);
+    background-color: #292e30;
     border-style: solid;
-    border-color: rgb(180, 180, 180);
+    border-color: rgb(0, 0, 0);
     border-width: 1px;
     padding: 30px;
     border-radius: 12px;
@@ -51,7 +54,6 @@ body
 {
     font-family: serif;
     font-size: 22px;
-    color: rgb(28, 47, 69);
     margin: 0;
     margin-bottom: 5px;
 }
@@ -63,6 +65,7 @@ body
 
 #central
 {
+    margin-top: 30px;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -97,8 +100,8 @@ body
 }
 #canvas-figura
 {
-    background-color: #fdfdf7;
-    border-color: #b4b6bb;
+    background-color: #000000;
+    border-color: #131831;
     border-style: solid;
     border-width: 1px;
     width: 300px;
